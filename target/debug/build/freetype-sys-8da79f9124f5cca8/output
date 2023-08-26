@@ -1,0 +1,186 @@
+cargo:rerun-if-env-changed=FREETYPE2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=FREETYPE2_STATIC
+cargo:rerun-if-env-changed=FREETYPE2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=FREETYPE2_STATIC
+cargo:rerun-if-env-changed=FREETYPE2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-unknown-linux-gnu = None
+CMAKE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE = None
+CMAKE = None
+running: cd "/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/home/kyogre/.cargo/registry/src/index.crates.io-6f17d22bba15001f/freetype-sys-0.13.1/freetype2" "-DWITH_BZip2=OFF" "-DWITH_HarfBuzz=OFF" "-DWITH_PNG=OFF" "-DWITH_ZLIB=OFF" "-DCMAKE_INSTALL_PREFIX=/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Creating directory /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build/include/freetype/config
+-- Creating file /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build/include/freetype/config/ftconfig.h
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Creating file /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build/include/freetype/config/ftoption.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build
+running: cd "/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/build" && MAKEFLAGS="-j --jobserver-fds=7,8 --jobserver-auth=7,8" "cmake" "--build" "." "--target" "install" "--config" "Release"
+[  2%] Building C object CMakeFiles/freetype.dir/src/autofit/autofit.c.o
+[  4%] Building C object CMakeFiles/freetype.dir/src/base/ftbase.c.o
+[  6%] Building C object CMakeFiles/freetype.dir/src/base/ftbbox.c.o
+[  9%] Building C object CMakeFiles/freetype.dir/src/base/ftbdf.c.o
+[ 11%] Building C object CMakeFiles/freetype.dir/src/base/ftbitmap.c.o
+[ 13%] Building C object CMakeFiles/freetype.dir/src/base/ftcid.c.o
+[ 16%] Building C object CMakeFiles/freetype.dir/src/base/ftfntfmt.c.o
+[ 18%] Building C object CMakeFiles/freetype.dir/src/base/ftfstype.c.o
+[ 20%] Building C object CMakeFiles/freetype.dir/src/base/ftgasp.c.o
+[ 23%] Building C object CMakeFiles/freetype.dir/src/base/ftglyph.c.o
+[ 25%] Building C object CMakeFiles/freetype.dir/src/base/ftgxval.c.o
+[ 27%] Building C object CMakeFiles/freetype.dir/src/base/ftinit.c.o
+[ 30%] Building C object CMakeFiles/freetype.dir/src/base/ftlcdfil.c.o
+[ 32%] Building C object CMakeFiles/freetype.dir/src/base/ftmm.c.o
+[ 34%] Building C object CMakeFiles/freetype.dir/src/base/ftotval.c.o
+[ 37%] Building C object CMakeFiles/freetype.dir/src/base/ftpatent.c.o
+[ 39%] Building C object CMakeFiles/freetype.dir/src/base/ftpfr.c.o
+[ 41%] Building C object CMakeFiles/freetype.dir/src/base/ftstroke.c.o
+[ 44%] Building C object CMakeFiles/freetype.dir/src/base/ftsynth.c.o
+[ 46%] Building C object CMakeFiles/freetype.dir/src/base/ftsystem.c.o
+[ 48%] Building C object CMakeFiles/freetype.dir/src/base/fttype1.c.o
+[ 51%] Building C object CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o
+[ 53%] Building C object CMakeFiles/freetype.dir/src/bdf/bdf.c.o
+[ 55%] Building C object CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.o
+[ 58%] Building C object CMakeFiles/freetype.dir/src/cache/ftcache.c.o
+[ 60%] Building C object CMakeFiles/freetype.dir/src/cff/cff.c.o
+[ 62%] Building C object CMakeFiles/freetype.dir/src/cid/type1cid.c.o
+[ 65%] Building C object CMakeFiles/freetype.dir/src/gzip/ftgzip.c.o
+[ 67%] Building C object CMakeFiles/freetype.dir/src/lzw/ftlzw.c.o
+[ 69%] Building C object CMakeFiles/freetype.dir/src/pcf/pcf.c.o
+[ 72%] Building C object CMakeFiles/freetype.dir/src/pfr/pfr.c.o
+[ 74%] Building C object CMakeFiles/freetype.dir/src/psaux/psaux.c.o
+[ 76%] Building C object CMakeFiles/freetype.dir/src/pshinter/pshinter.c.o
+[ 79%] Building C object CMakeFiles/freetype.dir/src/psnames/psnames.c.o
+[ 81%] Building C object CMakeFiles/freetype.dir/src/raster/raster.c.o
+[ 83%] Building C object CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o
+[ 86%] Building C object CMakeFiles/freetype.dir/src/smooth/smooth.c.o
+[ 88%] Building C object CMakeFiles/freetype.dir/src/truetype/truetype.c.o
+[ 90%] Building C object CMakeFiles/freetype.dir/src/type1/type1.c.o
+[ 93%] Building C object CMakeFiles/freetype.dir/src/type42/type42.c.o
+[ 95%] Building C object CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o
+[ 97%] Building C object CMakeFiles/freetype.dir/src/base/ftdebug.c.o
+[100%] Linking C static library libfreetype.a
+[100%] Built target freetype
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftgxval.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftmoderr.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftbdf.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftmm.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftwinfnt.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftsnames.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ttnameid.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftlzw.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftcache.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftfntfmt.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/t1tables.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftautoh.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftstroke.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/fterrors.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftcid.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftsynth.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/fterrdef.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftpfr.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftadvanc.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftbbox.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftotval.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/fttrigon.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/tttags.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftincrem.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftsizes.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftcffdrv.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftgasp.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftgzip.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftsystem.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftbzip2.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftttdrv.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftrender.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/fttypes.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ttunpat.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftmac.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftchapters.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/freetype.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftglyph.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftoutln.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftbitmap.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftlcdfil.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftmodapi.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/tttables.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config/ftstdlib.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config/ftmodule.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config/ftheader.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftimage.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/ftlist.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/ft2build.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config/ftconfig.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/include/freetype2/freetype/config/ftoption.h
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/lib/libfreetype.a
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/lib/cmake/freetype/freetype-config.cmake
+-- Installing: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/lib/cmake/freetype/freetype-config-release.cmake
+cargo:root=/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out
+cargo:rustc-link-search=native=/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out/lib
+cargo:rustc-link-lib=static=freetype
+cargo:outdir=/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/freetype-sys-8da79f9124f5cca8/out

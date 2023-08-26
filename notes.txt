@@ -1,0 +1,8 @@
+-all vectors should be normalized per standard.
+-rectangle plane?
+-triangle?
+-mesh?
+-cube?
+
+
+-image lib may expect pixels be written from top left instead of bottom left.

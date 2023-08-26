@@ -1,0 +1,60 @@
+Determining if the off_t exist failed with the following output:
+Change Dir: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_743a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_743a0.dir/build.make CMakeFiles/cmTC_743a0.dir/build
+gmake[1]: Entering directory '/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC'
+Building C object CMakeFiles/cmTC_743a0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_743a0.dir/CheckSymbolExists.c.o -c /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC/CheckSymbolExists.c
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC/CheckSymbolExists.c: In function ‘main’:
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC/CheckSymbolExists.c:8:19: error: expected expression before ‘off_t’
+    8 |   return ((int*)(&off_t))[argc];
+      |                   ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_743a0.dir/build.make:78: CMakeFiles/cmTC_743a0.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-14fnaC'
+gmake: *** [Makefile:127: cmTC_743a0/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2026a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2026a.dir/build.make CMakeFiles/cmTC_2026a.dir/build
+gmake[1]: Entering directory '/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH'
+Building C object CMakeFiles/cmTC_2026a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_2026a.dir/CheckSymbolExists.c.o -c /home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH/CheckSymbolExists.c
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH/CheckSymbolExists.c: In function ‘main’:
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH/CheckSymbolExists.c:8:19: error: expected expression before ‘size_t’
+    8 |   return ((int*)(&size_t))[argc];
+      |                   ^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_2026a.dir/build.make:78: CMakeFiles/cmTC_2026a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/build/CMakeFiles/CMakeScratch/TryCompile-cqlpOH'
+gmake: *** [Makefile:127: cmTC_2026a/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

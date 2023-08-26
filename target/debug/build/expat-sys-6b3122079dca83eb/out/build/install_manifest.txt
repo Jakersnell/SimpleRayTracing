@@ -1,0 +1,4 @@
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/lib/libexpat.a
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/include/expat.h
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/include/expat_external.h
+/home/kyogre/Code/Personal/Projects/ray-tracer/target/debug/build/expat-sys-6b3122079dca83eb/out/lib/pkgconfig/expat.pc
