@@ -15,6 +15,7 @@ ultimate goals for this project, in no real order:
 6. Allow for Import and use of Blender Models.
 7. implement simple 3D modeler in python.
 
+![alt text](https://github.com/Jakersnell/SimpleRayTracing/blob/0648a442d7eba30647f32b33d43363476700cd37/output/mixed2.png)
 Resources used.
 
     Essence of Linear Algebra, By 3blue1brown.
