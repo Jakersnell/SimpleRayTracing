@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["NoneMore","Recursive"],"trait":["IntoNonRecursive","IntoRecursive","IntoTuple"]};

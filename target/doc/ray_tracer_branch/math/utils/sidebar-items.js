@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["inv_sqr","is_near_zero"]};

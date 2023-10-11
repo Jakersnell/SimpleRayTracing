@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["CropResult"],"fn":["try_find_smaller_bounds"],"struct":["CroppedChannels","CroppedWriter"],"trait":["ApplyCroppedView","Crop","CropWhere","GetBounds","InspectSample"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["Channels","ColorSpace","Error"],"fn":["decode_header","decode_to_buf","decode_to_vec","encode_max_len","encode_to_buf","encode_to_vec"],"struct":["Decoder","Encoder","Header"],"type":["Result"]};

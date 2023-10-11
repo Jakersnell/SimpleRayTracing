@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AllChunksReader","FilteredChunksReader","OnProgressChunksReader","ParallelBlockDecompressor","Reader","SequentialBlockDecompressor"],"trait":["ChunksReader"]};

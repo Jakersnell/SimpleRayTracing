@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["anti_alias"],"struct":["Camera"]};

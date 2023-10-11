@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["bmp","dds","dxt","farbfeld","gif","hdr","ico","jpeg","openexr","png","pnm","qoi","tga","tiff","webp"]};

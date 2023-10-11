@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CollectPixels","OptionalSampleReader","ReadOptionalChannel","ReadRequiredChannel","SampleReader","SpecificChannelsReader"],"trait":["ReadSpecificChannel","RecursivePixelReader"],"type":["ReadZeroChannels"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["Sample"],"trait":["FromNativeSample","IntoNativeSample"]};

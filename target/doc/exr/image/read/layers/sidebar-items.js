@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AllLayersReader","FirstValidLayerReader","LayerReader","ReadAllLayers","ReadFirstValidLayer"],"trait":["ChannelsReader","ReadChannels"]};

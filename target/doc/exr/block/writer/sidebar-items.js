@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["write_chunks_with"],"struct":["ChunkWriter","OnProgressChunkWriter","ParallelBlocksCompressor","SequentialBlocksCompressor","SortedBlocksWriter"],"trait":["ChunksWriter"]};

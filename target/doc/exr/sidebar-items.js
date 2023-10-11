@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["block","compression","error","image","math","meta","prelude"]};

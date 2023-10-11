@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ValidationOptions"],"trait":["ValidateResult"],"type":["ValidationResult"]};
