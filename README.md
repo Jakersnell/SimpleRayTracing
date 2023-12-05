@@ -1,6 +1,3 @@
-# ray-tracer
-A simple Ray-Tracer written in Rust.
-
 ## What is a Ray Tracer?
 
 A ray-tracer is a program that generates images by simulating how light travels through a scene. It accomplishes this by calculating the paths of light rays and their interactions with various objects and materials within the scene. The process heavily relies on Linear Algebra for performing the necessary vector calculations.
