@@ -23,8 +23,8 @@ By repeating this process for every pixel in an image, ray-tracing produces stun
 * **Anti-Aliasing:** Implemented anti-aliasing techniques to improve the visual quality of rendered images by reducing aliasing artifacts.
 * **Linear Algebra Integration:** Utilized Linear Algebra extensively in the implementation, facilitating calculations and transformations necessary for simulating light interactions and object rendering.
 
-
-![alt text](https://github.com/Jakersnell/SimpleRayTracing/blob/0648a442d7eba30647f32b33d43363476700cd37/output/mixed2.png)
+![first image](https://github.com/Jakersnell/SimpleRayTracing/blob/main/output/mixed.png)
+![second image](https://github.com/Jakersnell/SimpleRayTracing/blob/0648a442d7eba30647f32b33d43363476700cd37/output/mixed2.png)
 Resources used.
 
     Essence of Linear Algebra, By 3blue1brown.
